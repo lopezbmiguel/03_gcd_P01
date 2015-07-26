@@ -1,0 +1,104 @@
+#Code Book for "tidy_data.txt"
+
+The file "tidy_data" contains:
+
+A dataset with 11800 observations and 3 variables and 1 measure.
+
+The variables are defined as follows:
+
+1. Activity: The activity the subject performed for each experiment.
+
+Levels:
+"LAYING"
+"SITTING"
+"STANDING"
+"WALKING"
+"WALKING_UPSTAIRS"
+"WALKING_DOWNSTAIRS"
+
+2. Subject: The identifier for the subject that performed the activity.
+
+Levels:
+From 1 to 30
+
+3. Variable: The variable measured during each activity.
+
+Each variable represents a measurement taken by the accelerometer or the gyroscope of the device during
+each activity.
+
+The naming convention for each variable is as follows:
+Position 1. Levels: Frequency, Time. Describes whether the measure was made in the frequency or time domains.
+Position 2. Levels: Body, Gravity. Describes whether the measure represents the acceleration of the body, or the acceleration induced by gravity.
+Position 3. Levels: Accelerometer, Gyroscope. Specifies if the measure was recorded by the Accelerometer or the Gyroscope.
+Position 4. Levels: Jerk, Magnitude, not present. Specifies whether the measure is a derivative in time (Jerk), the magnitude of the signal combining al axes X,Y,Z (Magnitude), or the magnitude of the signal on each axis (not present).
+Position 5. Levels: Mean, StDeviation. Describes whether the measure for each window sample is the mean or the standard deviation of the measures taken during the sample window.
+Position 6. Levels: X,Y,Z, not present. Indicates whether the measurmenet is a portion of the signal on a particular axis (X,Y,Z) or the magnitude of the signal with all the axis combined (not present).
+
+Levels:
+
+ [1] "FrequencyBodyAccelerometerJerkMean-X"                  
+ [2] "FrequencyBodyAccelerometerJerkMean-Y"                  
+ [3] "FrequencyBodyAccelerometerJerkMean-Z"                  
+ [4] "FrequencyBodyAccelerometerJerkStDeviation-X"           
+ [5] "FrequencyBodyAccelerometerJerkStDeviation-Y"           
+ [6] "FrequencyBodyAccelerometerJerkStDeviation-Z"           
+ [7] "FrequencyBodyAccelerometerMagnitudeMean"               
+ [8] "FrequencyBodyAccelerometerMagnitudeStDeviation"        
+ [9] "FrequencyBodyAccelerometerMean-X"                      
+[10] "FrequencyBodyAccelerometerMean-Y"                      
+[11] "FrequencyBodyAccelerometerMean-Z"                      
+[12] "FrequencyBodyAccelerometerStDeviation-X"               
+[13] "FrequencyBodyAccelerometerStDeviation-Y"               
+[14] "FrequencyBodyAccelerometerStDeviation-Z"               
+[15] "FrequencyBodyBodyAccelerometerJerkMagnitudeMean"       
+[16] "FrequencyBodyBodyAccelerometerJerkMagnitudeStDeviation"
+[17] "FrequencyBodyBodyGyroscopeJerkMagnitudeMean"           
+[18] "FrequencyBodyBodyGyroscopeJerkMagnitudeStDeviation"    
+[19] "FrequencyBodyBodyGyroscopeMagnitudeMean"               
+[20] "FrequencyBodyBodyGyroscopeMagnitudeStDeviation"        
+[21] "FrequencyBodyGyroscopeMean-X"                          
+[22] "FrequencyBodyGyroscopeMean-Y"                          
+[23] "FrequencyBodyGyroscopeMean-Z"                          
+[24] "FrequencyBodyGyroscopeStDeviation-X"                   
+[25] "FrequencyBodyGyroscopeStDeviation-Y"                   
+[26] "FrequencyBodyGyroscopeStDeviation-Z"                   
+[27] "TimeBodyAccelerometerJerkMagnitudeMean"                
+[28] "TimeBodyAccelerometerJerkMagnitudeStDeviation"         
+[29] "TimeBodyAccelerometerJerkMean-X"                       
+[30] "TimeBodyAccelerometerJerkMean-Y"                       
+[31] "TimeBodyAccelerometerJerkMean-Z"                       
+[32] "TimeBodyAccelerometerJerkStDeviation-X"                
+[33] "TimeBodyAccelerometerJerkStDeviation-Y"                
+[34] "TimeBodyAccelerometerJerkStDeviation-Z"                
+[35] "TimeBodyAccelerometerMagnitudeMean"                    
+[36] "TimeBodyAccelerometerMagnitudeStDeviation"             
+[37] "TimeBodyAccelerometerMean-X"                           
+[38] "TimeBodyAccelerometerMean-Y"                           
+[39] "TimeBodyAccelerometerMean-Z"                           
+[40] "TimeBodyAccelerometerStDeviation-X"                    
+[41] "TimeBodyAccelerometerStDeviation-Y"                    
+[42] "TimeBodyAccelerometerStDeviation-Z"                    
+[43] "TimeBodyGyroscopeJerkMagnitudeMean"                    
+[44] "TimeBodyGyroscopeJerkMagnitudeStDeviation"             
+[45] "TimeBodyGyroscopeJerkMean-X"                           
+[46] "TimeBodyGyroscopeJerkMean-Y"                           
+[47] "TimeBodyGyroscopeJerkMean-Z"                           
+[48] "TimeBodyGyroscopeJerkStDeviation-X"                    
+[49] "TimeBodyGyroscopeJerkStDeviation-Y"                    
+[50] "TimeBodyGyroscopeJerkStDeviation-Z"                    
+[51] "TimeBodyGyroscopeMagnitudeMean"                        
+[52] "TimeBodyGyroscopeMagnitudeStDeviation"                 
+[53] "TimeBodyGyroscopeMean-X"                               
+[54] "TimeBodyGyroscopeMean-Y"                               
+[55] "TimeBodyGyroscopeMean-Z"                               
+[56] "TimeBodyGyroscopeStDeviation-X"                        
+[57] "TimeBodyGyroscopeStDeviation-Y"                        
+[58] "TimeBodyGyroscopeStDeviation-Z"                        
+[59] "TimeGravityAccelerometerMagnitudeMean"                 
+[60] "TimeGravityAccelerometerMagnitudeStDeviation"          
+[61] "TimeGravityAccelerometerMean-X"                        
+[62] "TimeGravityAccelerometerMean-Y"                        
+[63] "TimeGravityAccelerometerMean-Z"                        
+[64] "TimeGravityAccelerometerStDeviation-X"                 
+[65] "TimeGravityAccelerometerStDeviation-Y"                 
+[66] "TimeGravityAccelerometerStDeviation-Z" 
